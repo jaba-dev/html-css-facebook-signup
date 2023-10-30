@@ -1,0 +1,196 @@
+html {
+  font-size: 15px;
+}
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+/* @media screen and (max-width: 370px) {
+  html {
+    font-size: 8px;
+  }
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #f0f2f5;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header h1 {
+  color: #0866ff;
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 2rem;
+}
+
+main {
+  width: 50%;
+  max-width: 450px;
+  background-color: #fff;
+  padding: 1.25rem;
+  border-radius: 0.6rem;
+}
+
+main > h2 {
+  text-align: center;
+  margin-bottom: 0.6rem;
+}
+
+main > p {
+  text-align: center;
+  margin-bottom: 0.6rem;
+}
+
+main form .form-group-1 {
+  display: flex;
+  gap: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+
+main form .form-group-1 input {
+  padding: 0.75rem;
+  border: 1px solid #ccd0d5;
+  border-radius: 0.3rem;
+  width: 100%;
+  font-size: 1rem;
+}
+
+main form .form-group {
+  display: flex;
+  margin-bottom: 0.6rem;
+}
+
+main form .form-group input {
+  padding: 0.75rem;
+  width: 100%;
+  border: 1px solid #ccd0d5;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+}
+
+main form .form-select-header {
+  display: flex;
+  gap: 0.3rem;
+  align-items: flex-end;
+  margin-bottom: 0.3rem;
+}
+
+main form .form-select-group {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+
+main form .form-select-group select {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccd0d5;
+  border-radius: 0.3rem;
+  appearance: none;
+  background-color: #fff;
+  background-image: url("./angle-down-solid.svg");
+  background-repeat: no-repeat;
+  background-size: 0.9rem;
+  background-position: right 0.5rem center;
+}
+
+main form .form-radio-header {
+  display: flex;
+  gap: 0.3rem;
+  align-items: flex-end;
+  margin-bottom: 0.3rem;
+}
+
+main form .fomr-radio-group {
+  display: flex;
+  gap: 0.6rem;
+}
+
+main form .fomr-radio-group label {
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+  border: 1px solid #ccd0d5;
+  border-radius: 0.3rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main form .fomr-radio-group label input {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+main form > p {
+  margin: 0.6rem 0;
+  font-size: 0.75rem;
+}
+
+main form > p > a {
+  text-decoration: none;
+  color: #385898;
+}
+
+main form > button {
+  display: block;
+  background-color: #00a400;
+  border: none;
+  border-radius: 0.4rem;
+  color: #fff;
+  font-size: 1.2rem;
+  height: 2.2rem;
+  padding: 0 2rem;
+  margin: 1.25rem auto;
+}
+
+main form > a {
+  color: #1877f2;
+  font-size: 1.1rem;
+  line-height: 1.25rem;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
